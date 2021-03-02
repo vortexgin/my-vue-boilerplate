@@ -1,0 +1,26 @@
+{
+    "name": "my-vue-boilerplate",
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+        "dev": "NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "start": "serve"
+    },
+    "keywords": [],
+    "license": "MIT",
+    "devDependencies": {
+        "postcss": "^8.2.6",
+        "serve": "^11.2.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "axios": "^0.21.1",
+        "babel-polyfill": "^6.26.0",
+        "bootstrap": "^4.6.0",
+        "laravel-mix": "^6.0.13",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    }
+}
